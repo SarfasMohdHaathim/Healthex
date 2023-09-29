@@ -43,6 +43,7 @@ include_once 'php/db_conn.php'; ?>
                           <div class="d-flex">
                           <a class="btn btn-falcon-danger btn-sm" type="button" data-toggle="modal" data-target="#myModal<?=$row['id']?>" href="#!">Delete</a>
                           <a class="btn btn-falcon-info btn-sm"  href="edit-product.php?id=<?=$row['id']?>">Edit</a>
+                          <a class="btn btn-falcon-success btn-sm"  href="add-product_image.php?id=<?=$row['id']?>">add multiple images</a>
                         </div>
                         </div>
                       </div>

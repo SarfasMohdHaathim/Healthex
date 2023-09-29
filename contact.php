@@ -1,13 +1,12 @@
 <?php include_once 'header.php'; ?>
 
-
 <section class="page_banner" style="background-image: url(assets/images/bg/b2.jpg);">
 <div class="container">
 <div class="row">
 <div class="col-lg-12 text-center">
 <h2 class="banner-title">Contact Us</h2>
 <p class="breadcrumbs">
-<a href="index.php"><i class="twi-home"></i>Home</a><i class="twi-angle-right"></i>Contact Us
+<a href="index.html"><i class="twi-home"></i>Home</a><i class="twi-angle-right"></i>Contact Us
 </p>
 </div>
 </div>
@@ -15,20 +14,15 @@
 </section>
 
 
-<section class="contactInfoSec">
+<section class="contactInfoSec contactInfoSec2">
 <div class="container largeContainer">
 <div class="row">
-<div class="col-lg-7 mb85">
-<div class="abThumb move_anim">
-<img class="abbg" src="assets/images/bg/c2.png" alt="">
-<img src="assets/images/bg/c1.png" alt="">
-</div>
-</div>
 <div class="col-lg-5">
+<h2 class="secTitle">Get In Touch</h2>
 <p>Get in touch to discuss your employee wellbeing needs today. Please give us a call, drop us an email or fill out the contact form and we’ll get back to you.</p>
 <div class="contactbox">
 <i class="twi-envelope"></i>
-<h5><a href="https://themewar.com/cdn-cgi/l/email-protection#127a777e7e7d527d6075737c7b713c717d7f"><span class="__cf_email__" data-cfemail="f49c9198989bb49b8693959a9d97da979b99">[email&#160;protected]</span></a></h5>
+<h5><a href="https://themewar.com/cdn-cgi/l/email-protection#49212c25252609263b2e2827202a672a2624"><span class="__cf_email__" data-cfemail="9ff7faf3f3f0dff0edf8fef1f6fcb1fcf0f2">[email&#160;protected]</span></a></h5>
 </div>
 <div class="contactbox">
 <i class="twi-phone"></i>
@@ -44,29 +38,36 @@
 <a href="javascript:void(0);"><i class="twi-linkedin-in"></i></a>
 </div>
 </div>
-</div>
-<div class="row">
-<div class="col-md-12 text-center">
-<div class="contact_form">
-<h2>Drop Us A Line</h2>
-<form action="#" method="post" class="row" id="contact_form">
-<div class="col-md-5">
+<div class="col-lg-7">
+<div class="contact_form_2">
+<h2 class="secTitle">Drop Us a Line</h2>
+<form action="php/contact.php" method="post" class="row">
+<div class="col-lg-6">
 <input class="required" type="text" name="con_name" placeholder="Full Name *">
-<input class="required" type="email" name="con_email" placeholder="Email Address *">
-<input type="text" name="con_subject" placeholder="Subject">
 </div>
-<div class="col-md-7">
-<textarea class="required" name="con_message" placeholder="Your Message here"></textarea>
+<div class="col-lg-6">
+<input class="required" type="email" name="con_email" placeholder="Email Address *">
 </div>
 <div class="col-md-12">
-<button type="submit" class="organ_btn">Get In Touch</button>
+<input type="number" name="con_num" placeholder="Phone Number *">
+<textarea class="required" name="con_message" placeholder="Your Message here"></textarea>
+<button type="submit" class="organ_btn">Get In Touch<i class="twi-arrow-right1"></i></button>
 <div class="con_message"></div>
 </div>
-</form>
+ </form>
 </div>
 </div>
 </div>
 </div>
 </section>
+
+
+
+<section class="mapSection">
+<div class="googleMap">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d837.1682202687648!2d90.37416162759105!3d23.756162001006555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755bff7abdea3e3%3A0x7b0e9f046b651f49!2sBanee's%20Academy!5e0!3m2!1sen!2sbd!4v1665464458907!5m2!1sen!2sbd"></iframe>
+</div>
+</section>
+
 
 <?php include_once 'footer.php'; ?>

@@ -6,11 +6,11 @@
 <ul>
  <li data-index="rs-3052" data-transition="random-premium" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="1000" data-thumb="" data-rotate="0" data-saveperformance="off" data-title="" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
 <img src="assets/images/slider/4.png" alt="Organia" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="0" class="rev-slidebg" data-no-retina>
-<div class="tp-caption headFont ws_nowrap text-upppercase" data-x="['left', 'left', 'center', 'center']" data-hoffset="['-90','0','0','0']" data-y="['middle']" data-voffset="['-161','-180','-195','-195']" data-fontsize="['20','20','20','20']" data-fontweight="600" data-lineheight="['30']" data-letterspacing=".40" data-width="['500','500','100%', '100%']" data-height="['auto']" data-whitesapce="normal" data-color="['#313131']" data-type="text" data-responsive_offset="off" data-frames='[{"delay":1500,"speed":500,"frame":"0","from":"y:top;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"power3.inOut"}]' data-textAlign="['left', 'left', 'center', 'center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,25,20]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,20,25,20]"><span class="sbBg text-upppercase">100% Organic Foods</span>
+<div class="tp-caption headFont ws_nowrap text-upppercase" data-x="['left', 'left', 'center', 'center']" data-hoffset="['-90','0','0','0']" data-y="['middle']" data-voffset="['-161','-180','-195','-195']" data-fontsize="['20','20','20','20']" data-fontweight="600" data-lineheight="['30']" data-letterspacing=".40" data-width="['500','500','100%', '100%']" data-height="['auto']" data-whitesapce="normal" data-color="['#313131']" data-type="text" data-responsive_offset="off" data-frames='[{"delay":1500,"speed":500,"frame":"0","from":"y:top;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"power3.inOut"}]' data-textAlign="['left', 'left', 'center', 'center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,25,20]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,20,25,20]"><span class="sbBg text-upppercase">Health on Your Plate</span>
 </div>
-<div class="tp-caption headFont ws_nowrap hdImg" data-x="['left', 'left', 'center', 'center']" data-hoffset="['-90','0','0','0']" data-y="['middle']" data-voffset="['-54','-54','-70','-80']" data-fontsize="['60','50','50','38']" data-fontweight="['800']" data-lineheight="['77','67','68','55']" data-letterspacing="['-2.4','-2.4','-2','-2']" data-width="['580','580','100%','100%']" data-height="['auto']" data-whitesapce="['normal']" data-color="['#fff']" data-type="text" data-responsive_offset="off" data-frames='[{"delay":1800,"speed":500,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"power3.inOut"}]' data-textAlign="['left', 'left', 'center', 'center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,80,20]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,20,80,20]">Organic Veggies Coock <span class="prcolor">Healthy</span>
+<div class="tp-caption headFont ws_nowrap hdImg" data-x="['left', 'left', 'center', 'center']" data-hoffset="['-90','0','0','0']" data-y="['middle']" data-voffset="['-54','-54','-70','-80']" data-fontsize="['60','50','50','38']" data-fontweight="['800']" data-lineheight="['77','67','68','55']" data-letterspacing="['-2.4','-2.4','-2','-2']" data-width="['580','580','100%','100%']" data-height="['auto']" data-whitesapce="['normal']" data-color="['#fff']" data-type="text" data-responsive_offset="off" data-frames='[{"delay":1800,"speed":500,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"power3.inOut"}]' data-textAlign="['left', 'left', 'center', 'center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,80,20]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,20,80,20]">Food that Loves <span class="prcolor"> You Back.</span>
 </div>
-<div class="tp-caption ws_nowrap" data-x="['left', 'left', 'center', 'center']" data-hoffset="['-90', '0', '0', '0']" data-y="['middle']" data-voffset="['77','85','65','50']" data-fontsize="['18','18','18','18']" data-fontweight="400" data-lineheight="['30']" data-width="['630','500','100%','100%']" data-height="['auto']" data-whitesapce="['normal']" data-color="['#ffffff']" data-type="text" data-responsive_offset="off" data-frames='[{"delay":2100,"speed":600,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"power3.inOut"}]' data-textAlign="['left', 'left', 'center', 'center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,50,15]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,30,50,15]">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same<br> illusion which lifts the horizon of the sea to the level.
+<div class="tp-caption ws_nowrap" data-x="['left', 'left', 'center', 'center']" data-hoffset="['-90', '0', '0', '0']" data-y="['middle']" data-voffset="['77','85','65','50']" data-fontsize="['18','18','18','18']" data-fontweight="400" data-lineheight="['30']" data-width="['630','500','100%','100%']" data-height="['auto']" data-whitesapce="['normal']" data-color="['#ffffff']" data-type="text" data-responsive_offset="off" data-frames='[{"delay":2100,"speed":600,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"power3.inOut"}]' data-textAlign="['left', 'left', 'center', 'center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,50,15]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,30,50,15]">Healthy eating is a form of self-love. How do you practice self-love today? 
 </div>
 <div class="tp-caption headFont tp-resizeme" data-x="['left', 'left', 'center', 'center']" data-hoffset="['-90','0','0','0']" data-y="['middle']" data-voffset="['200','200','170','170']" data-fontsize="['17']" data-fontweight="800" data-lineheight=".8" data-width="['100%']" data-height="['auto']" data-whitesapce="['normal']" data-color="['#fff']" data-type="text" data-responsive_offset="off" data-frames='[{"delay":2400,"speed":600,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"power3.inOut"}]' data-textAlign="['left', 'left', 'center', 'center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,20,0,0]"><a href="shop.php" class="organ_btn ob02">View All<i class="twi-arrow-right1"></i></a>
 </div>
@@ -20,9 +20,9 @@
 <img src="assets/images/slider/4.png" alt="Organia" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="0" class="rev-slidebg" data-no-retina>
 <div class="tp-caption headFont ws_nowrap text-upppercase" data-x="['left', 'left', 'center', 'center']" data-hoffset="['-90','0','0','0']" data-y="['middle']" data-voffset="['-161','-180','-195','-195']" data-fontsize="['20','20','20','20']" data-fontweight="600" data-lineheight="['30']" data-letterspacing=".40" data-width="['500','500','100%', '100%']" data-height="['auto']" data-whitesapce="normal" data-color="['#313131']" data-type="text" data-responsive_offset="off" data-frames='[{"delay":1500,"speed":500,"frame":"0","from":"y:top;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"power3.inOut"}]' data-textAlign="['left', 'left', 'center', 'center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,25,20]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,20,25,20]"><span class="sbBg text-upppercase">100% Organic Foods</span>
 </div>
-<div class="tp-caption headFont ws_nowrap hdImg" data-x="['left', 'left', 'center', 'center']" data-hoffset="['-90','0','0','0']" data-y="['middle']" data-voffset="['-54','-54','-70','-80']" data-fontsize="['60','50','50','38']" data-fontweight="['800']" data-lineheight="['77','67','68','55']" data-letterspacing="['-2.4','-2.4','-2','-2']" data-width="['580','580','100%','100%']" data-height="['auto']" data-whitesapce="['normal']" data-color="['#fff']" data-type="text" data-responsive_offset="off" data-frames='[{"delay":1800,"speed":500,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"power3.inOut"}]' data-textAlign="['left', 'left', 'center', 'center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,80,20]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,20,80,20]">Organic Veggies Coock <span class="prcolor">Healthy</span>
+<div class="tp-caption headFont ws_nowrap hdImg" data-x="['left', 'left', 'center', 'center']" data-hoffset="['-90','0','0','0']" data-y="['middle']" data-voffset="['-54','-54','-70','-80']" data-fontsize="['60','50','50','38']" data-fontweight="['800']" data-lineheight="['77','67','68','55']" data-letterspacing="['-2.4','-2.4','-2','-2']" data-width="['580','580','100%','100%']" data-height="['auto']" data-whitesapce="['normal']" data-color="['#fff']" data-type="text" data-responsive_offset="off" data-frames='[{"delay":1800,"speed":500,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"power3.inOut"}]' data-textAlign="['left', 'left', 'center', 'center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,80,20]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,20,80,20]">Your Health, <span class="prcolor">Your Choice</span>
 </div>
-<div class="tp-caption ws_nowrap" data-x="['left', 'left', 'center', 'center']" data-hoffset="['-90', '0', '0', '0']" data-y="['middle']" data-voffset="['77','85','65','50']" data-fontsize="['18','18','18','18']" data-fontweight="400" data-lineheight="['30']" data-width="['630','500','100%','100%']" data-height="['auto']" data-whitesapce="['normal']" data-color="['#ffffff']" data-type="text" data-responsive_offset="off" data-frames='[{"delay":2100,"speed":600,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"power3.inOut"}]' data-textAlign="['left', 'left', 'center', 'center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,50,15]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,30,50,15]">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same<br> illusion which lifts the horizon of the sea to the level.
+<div class="tp-caption ws_nowrap" data-x="['left', 'left', 'center', 'center']" data-hoffset="['-90', '0', '0', '0']" data-y="['middle']" data-voffset="['77','85','65','50']" data-fontsize="['18','18','18','18']" data-fontweight="400" data-lineheight="['30']" data-width="['630','500','100%','100%']" data-height="['auto']" data-whitesapce="['normal']" data-color="['#ffffff']" data-type="text" data-responsive_offset="off" data-frames='[{"delay":2100,"speed":600,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"power3.inOut"}]' data-textAlign="['left', 'left', 'center', 'center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,50,15]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,30,50,15]">Every meal is a chance to make a healthier choice. What's your choice today?
 </div>
 <div class="tp-caption headFont tp-resizeme" data-x="['left', 'left', 'center', 'center']" data-hoffset="['-90','0','0','0']" data-y="['middle']" data-voffset="['200','200','170','170']" data-fontsize="['17']" data-fontweight="800" data-lineheight=".8" data-width="['100%']" data-height="['auto']" data-whitesapce="['normal']" data-color="['#fff']" data-type="text" data-responsive_offset="off" data-frames='[{"delay":2400,"speed":600,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"power3.inOut"}]' data-textAlign="['left', 'left', 'center', 'center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,20,0,0]"><a href="shop.php" class="organ_btn ob02">View All<i class="twi-arrow-right1"></i></a>
 </div>
@@ -43,7 +43,7 @@
     </div>
     <div class="col-lg-6 col-md-6">
     <div class="ab_content_01">
-    <div class="subTitle">About us</div>
+    <div class="subTitle ml-3">About us</div>
     <h2 class="secTitle">We Believe in Working Accredited Farmers</h2>
     <p class="secDesc">
     Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same illusion which lifts the horizon of the sea to the level.
@@ -70,7 +70,7 @@
         <div class="col-lg-12">
             
             <div class="col-lg-12 text-center">
-                <div class="subTitle">HEALTHEX</div>
+                <div class="subTitle ml-3">HEALTHEX</div>
                 <h2 class="secTitle">Product by Category</h2>
                 </div>
         <div class="categorySlider owl-carousel">
@@ -130,43 +130,25 @@
         <div class="productItem09 text-center">
         <div class="pi09Top">
         <div class="piThumb09">
-        <img src="assets/images/product/1.png" alt="">
+        <img src="6.png" alt="">
         <div class="prLabels">
-        <p class="justin">Fresh</p>
+        
         </div>
-        <a class="wishlist" href="wishlist.php"><i class="twi-heart1"></i></a>
-        </div>
-        <div class="piActionBtns09">
         </div>
         </div>
         <div class="pi09Content">
-        <div class="ratings">
-        <i class="twi-star"></i>
-        <i class="twi-star"></i>
-        <i class="twi-star"></i>
-         <i class="twi-star"></i>
-        <i class="twi-star1"></i>
-        <span>(01)</span>
-        </div>
-        <h3><a href="single-product.php">Vegan Egg Replacer</a></h3>
-        <div class="pi01Price">
-        <span class="price"><del>$200.00</del><ins>$280.00</ins></span>
-        </div>
+        <h3><a href="single-product.php">CHOLE MASALA</a></h3>
+
         </div>
         </div>
         <div class="productItem09 text-center">
         <div class="pi09Top">
         <div class="piThumb09">
-        <img src="assets/images/product/8.png" alt="">
+        <img src="../1.jpg/2.png" alt="">
         <div class="prLabels">
-        <p class="justin">Fresh</p>
+        
         </div>
         <a class="wishlist" href="wishlist.php"><i class="twi-heart1"></i></a>
-        </div>
-        <div class="piActionBtns09">
-        <a class="quickview" href="single-product.php"><i class="icon-magnifying-glass"></i></a>
-        <a class="cart" href="cart.php"><i class="icon-shopping-cart"></i></a>
-        <a class="compare" href="single-product.php"><i class="icon-move"></i></a>
         </div>
         </div>
         <div class="pi09Content">
@@ -189,14 +171,9 @@
         <div class="piThumb09">
         <img src="assets/images/product/2.png" alt="">
         <div class="prLabels">
-        <p class="justin">Fresh</p>
+        
         </div>
         <a class="wishlist" href="wishlist.php"><i class="twi-heart1"></i></a>
-        </div>
-        <div class="piActionBtns09">
-        <a class="quickview" href="single-product.php"><i class="icon-magnifying-glass"></i></a>
-        <a class="cart" href="cart.php"><i class="icon-shopping-cart"></i></a>
-        <a class="compare" href="single-product.php"><i class="icon-move"></i></a>
         </div>
         </div>
         <div class="pi09Content">
@@ -219,14 +196,9 @@
         <div class="piThumb09">
         <img src="assets/images/product/3.png" alt="">
         <div class="prLabels">
-        <p class="justin">Fresh</p>
+        
         </div>
         <a class="wishlist" href="wishlist.php"><i class="twi-heart1"></i></a>
-        </div>
-        <div class="piActionBtns09">
-        <a class="quickview" href="single-product.php"><i class="icon-magnifying-glass"></i></a>
-        <a class="cart" href="cart.php"><i class="icon-shopping-cart"></i></a>
-        <a class="compare" href="single-product.php"><i class="icon-move"></i></a>
         </div>
         </div>
         <div class="pi09Content">
@@ -249,14 +221,9 @@
         <div class="piThumb09">
         <img src="assets/images/product/5.png" alt="">
         <div class="prLabels">
-        <p class="justin">Fresh</p>
+        
         </div>
         <a class="wishlist" href="wishlist.php"><i class="twi-heart1"></i></a>
-        </div>
-        <div class="piActionBtns09">
-        <a class="quickview" href="single-product.php"><i class="icon-magnifying-glass"></i></a>
-        <a class="cart" href="cart.php"><i class="icon-shopping-cart"></i></a>
-        <a class="compare" href="single-product.php"><i class="icon-move"></i></a>
         </div>
         </div>
         <div class="pi09Content">
@@ -279,14 +246,9 @@
         <div class="piThumb09">
         <img src="assets/images/product/4.png" alt="">
         <div class="prLabels">
-        <p class="justin">Fresh</p>
+        
         </div>
         <a class="wishlist" href="wishlist.php"><i class="twi-heart1"></i></a>
-        </div>
-        <div class="piActionBtns09">
-        <a class="quickview" href="single-product.php"><i class="icon-magnifying-glass"></i></a>
-        <a class="cart" href="cart.php"><i class="icon-shopping-cart"></i></a>
-        <a class="compare" href="single-product.php"><i class="icon-move"></i></a>
         </div>
         </div>
         <div class="pi09Content">
@@ -399,6 +361,70 @@
 </div>
 </div>
 </section>
+
+
+<section class="productSection03">
+<div class="container largeContainer">
+<div class="row">
+<div class="col-lg-12 text-center">
+            <div class="subTitle sbsm">Testimonials</div>
+            <h2 class="secTitle">Whats Our Customer Saying?</h2>
+            </div>
+</div>
+<div class="row">
+<div class="col-lg-12">
+<div class="productSlider01 owl-carousel">
+<div class="productItem04">
+<div class="item" style="padding: 25px;">
+<div class="ratings">
+    <img src="feedback.png" alt="" srcset="" style="height: 30px;width: 30px;">
+<div class="subTitle ml-3" style="margin-top: 10px;">
+Eugene Freeman</div>
+</div>
+<p>
+Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. We connect buyers and sellers of natural, organic, environmentally sound products. We find the best suppliers and makers of natural and organic products.
+</p>
+</div>
+</div>
+<div class="productItem04">
+<div class="item" style="padding: 25px;">
+<div class="ratings">
+<img src="feedback.png" alt="" srcset="" style="height: 30px;width: 30px;">
+<div class="subTitle ml-3" style="margin-top: 10px;">Eugene Freeman</div>
+</div>
+<p>
+Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. We connect buyers and sellers of natural, organic, environmentally sound products. We find the best suppliers and makers of natural and organic products.
+</p>
+</div>
+</div>
+<div class="productItem04">
+<div class="item" style="padding: 25px;">
+<div class="ratings">
+<img src="feedback.png" alt="" srcset="" style="height: 30px;width: 30px;">
+<div class="subTitle ml-3" style="margin-top: 10px;">Eugene Freeman</div>
+</div>
+<p>
+Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. We connect buyers and sellers of natural, organic, environmentally sound products. We find the best suppliers and makers of natural and organic products.
+</p>
+</div>
+</div>
+<div class="productItem04">
+<div class="item" style="padding: 25px;">
+<div class="ratings">
+<img src="feedback.png" alt="" srcset="" style="height: 30px;width: 30px;">
+<div class="subTitle ml-3" style="margin-top: 10px;">Eugene Freeman</div>
+</div>
+<p>
+Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. We connect buyers and sellers of natural, organic, environmentally sound products. We find the best suppliers and makers of natural and organic products.
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
 
 
 

@@ -28,9 +28,15 @@ include_once 'php/db_conn.php'; ?>
                     <input class="form-control w-50" id="exampleFormControlInput1" type="text" placeholder="" name="title">
                 </div>  
                 <div class="mb-3 w-50">
-                    <label class="form-label" for="customFile">Image input</label>
-                    <input class="form-control image" id="customFile" type="file" name="image">
-                  </div>
+                        <label class="form-label" for="customFile">Image input 1</label>
+                        <input class="form-control image" id="customFile1" type="file" name="image">
+                    </div>
+                    <div class="mb-3 w-50">
+                        <label class="form-label" for="customFile">Image input 2</label>
+                        <input class="form-control image" id="customFile2" type="file" name="image">
+                    </div>
+<!-- Add similar modal and preview elements for the second image -->
+
 
                 <div class="mb-3 w-50">
                     <label class="form-label" for="exampleFormControlTextarea1">Description</label>
@@ -63,7 +69,7 @@ include_once 'php/db_conn.php'; ?>
             </div>
           </div>
           
-      <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+      <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modalLabel1" aria-hidden="true">
           <div class="modal-dialog modal-lg" role="document">
               <div class="modal-content">
                   <div class="modal-header">
@@ -76,7 +82,7 @@ include_once 'php/db_conn.php'; ?>
                       <div class="img-container">
                           <div class="row">
                               <div class="col-md-8">  
-                                  <img id="image">
+                                  <img id="image1">
                               </div>
                               <div class="col-md-4">
                                   <div class="preview"></div>
@@ -86,7 +92,35 @@ include_once 'php/db_conn.php'; ?>
                   </div>
                   <div class="modal-footer">
                       <button type="button" class="btn btn-info close-button" data-dismiss="modal">Cancel</button>
-                      <button type="button" class="btn btn-primary " id="crop">Crop</button>
+                      <button type="button" class="btn btn-primary " id="crop1">Crop</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modalLabel2" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="modalLabel">Crop image</h5>
+                      <button type="button" class="close-button" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">close</span>
+                      </button>
+                  </div>
+                  <div class="modal-body">
+                      <div class="img-container">
+                          <div class="row">
+                              <div class="col-md-8">  
+                                  <img id="image2">
+                              </div>
+                              <div class="col-md-4">
+                                  <div class="preview"></div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-info close-button" data-dismiss="modal">Cancel</button>
+                      <button type="button" class="btn btn-primary " id="crop2">Crop</button>
                   </div>
               </div>
           </div>
@@ -110,79 +144,120 @@ include_once 'php/db_conn.php'; ?>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.min.js"></script>              
     <script>
-      var bs_modal = $('#modal');
-      var image = document.getElementById('image');
-      var image1 = document.getElementById('image1');
-      var cropper,reader,file;
+var bs_modal1 = $('#modal1');
+var bs_modal2 = $('#modal2');
+var image1 = document.getElementById('image1');
+var image2 = document.getElementById('image2');
+var cropper1, cropper2;
   
       
-      $("body").on("change", ".image", function(e) {
-          var files = e.target.files;
-          var done = function(url) {
-              image.src = url;
-              bs_modal.modal('show');
-          };
-          $('.close-button').on('click', function() {
-                bs_modal.modal('hide');
-            });
-          $('.delete-modal').on('click', function() {
-                bs_modal.modal('show');
-            });
+$("body").on("change", ".image", function(e) {
+    var files = e.target.files;
+    var imageElement = e.target.id === 'customFile1' ? image1 : image2;
+    var bs_modal = e.target.id === 'customFile1' ? bs_modal1 : bs_modal2;
 
+    var done = function(url) {
+        imageElement.src = url;
+        bs_modal.modal('show');
+    };
+
+    $('.close-button').on('click', function() {
+        bs_modal.modal('hide');
+    });
+
+    $('.delete-modal').on('click', function() {
+        bs_modal.modal('show');
+    });
+
+    if (files && files.length > 0) {
+        var file = files[0];
+
+        if (URL) {
+            done(URL.createObjectURL(file));
+        } else if (FileReader) {
+            var reader = new FileReader();
+            reader.onload = function(e) {
+                done(reader.result);
+            };
+            reader.readAsDataURL(file);
+        }
+    }
+});
   
-  
-          if (files && files.length > 0) {
-              file = files[0];
-  
-              if (URL) {
-                  done(URL.createObjectURL(file));
-              } else if (FileReader) {
-                  reader = new FileReader();
-                  reader.onload = function(e) {
-                      done(reader.result);
-                  };
-                  reader.readAsDataURL(file);
-              }
-          }
-      });
-  
-      bs_modal.on('shown.bs.modal', function() {
-          cropper = new Cropper(image, {
-              aspectRatio: 16/16,
-              viewMode: 3,
-              preview: '.preview'
-          });
-      }).on('hidden.bs.modal', function() {
-          cropper.destroy();
-          cropper = null;
-      });
-  
-      $("#crop").click(function() {
-          canvas = cropper.getCroppedCanvas({
-              width: 450,
-              height: 600,
-          });
-  
-          canvas.toBlob(function(blob) {
-              url = URL.createObjectURL(blob);
-              var reader = new FileReader();
-              reader.readAsDataURL(blob);
-              reader.onloadend = function() {
-                  var base64data = reader.result;
-                  $.ajax({
-                      type: "POST",
-                      dataType: "json",
-                      url: "image-upload1.php",
-                      data: {image: base64data},
-                      success: function(data) { 
-                          bs_modal.modal('hide');
-                          
-                      }
-                  });
-                  
-              };
-          });
-      });
+// ... (Your existing code)
+
+bs_modal1.on('shown.bs.modal', function() {
+    cropper1 = new Cropper(image1, {
+        aspectRatio: 16/16,
+        viewMode: 2,
+        preview: '.preview'
+    });
+}).on('hidden.bs.modal', function() {
+    cropper1.destroy();
+    cropper1 = null;
+});
+
+bs_modal2.on('shown.bs.modal', function() {
+    cropper2 = new Cropper(image2, {
+        aspectRatio: 10/15,
+        viewMode: 1,
+        preview: '.preview'
+    });
+}).on('hidden.bs.modal', function() {
+    cropper2.destroy();
+    cropper2 = null;
+});
+
+$("#crop1").click(function() {
+    canvas = cropper1.getCroppedCanvas({
+        width: 450,
+        height: 600,
+    });
+
+    canvas.toBlob(function(blob) {
+        url = URL.createObjectURL(blob);
+        var reader = new FileReader();
+        reader.readAsDataURL(blob);
+        reader.onloadend = function() {
+            var base64data = reader.result;
+            $.ajax({
+                type: "POST",
+                dataType: "json",
+                url: "image-upload1.php",
+                data: { image: base64data },
+                success: function(data) {
+                    bs_modal1.modal('hide');
+                    // ... Handle success if needed ...
+                }
+            });
+        };
+    });
+});
+
+$("#crop2").click(function() {
+    canvas = cropper2.getCroppedCanvas({
+        width: 450,
+        height: 900,
+    });
+
+    canvas.toBlob(function(blob) {
+        url = URL.createObjectURL(blob);
+        var reader = new FileReader();
+        reader.readAsDataURL(blob);
+        reader.onloadend = function() {
+            var base64data = reader.result;
+            $.ajax({
+                type: "POST",
+                dataType: "json",
+                url: "image-upload2.php",
+                data: { image: base64data },
+                success: function(data) {
+                    bs_modal2.modal('hide');
+                }
+            });
+        };
+    });
+});
   </script>
 
     

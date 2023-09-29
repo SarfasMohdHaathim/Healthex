@@ -27,69 +27,41 @@
 <link rel="icon" type="image/png" href="assets/images/favicon.png">
 
 </head>
+<style>
+    .header02 .mainMenu ul li{padding:0;}
+    .cusmm {display: flex;justify-content: center;align-items: center;}
+</style>
 <body>
 
 
 <section class="headerMiddle hmd05">
 <div class="container largeContainer">
 <div class="row">
-<div class="col-xl-5 col-lg-3 col-md-4">
+<div class="col-xl-2 col-lg-3 col-md-4">
 <div class="logo">
-<a href="index.php"><img src="assets/images/logo3.png" alt="Organia"></a>
+<a href="index.php"><img src="assets\images\healthex-01.png" alt="Organia"></a>
 </div>
 </div>
-<div class="col-xl-5 col-lg-6 col-md-8">
-<div class="search-product">
-<form class="d-flex" method="post" action="#">
-<input type="search" name="product" placeholder="1.8K Products Search. Hit enter...">
-<div class="search-category">
-<select>
-<option value="0">Select a Categories</option>
-<option value="12">Vegetable</option>
-<option value="19">Tomato</option>
-<option value="20">Caabage</option>
-<option value="20">Brooklyn</option>
-<option value="20">Onion</option>
- <option value="12">Fruits</option>
-<option value="12">Juice</option>
-<option value="12">Spices</option>
-<option value="12">Jam Jelly</option>
-</select>
-</div>
-</form>
-</div>
-</div>
-<div class="col-xl-2 col-lg-3 col-md-4 cusmm">
-<div class="midIconBox">
-<i class="twi-headphones-alt2"></i>
-<h5>call us free</h5>
-<p>(1900)-1088-88</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-
-
-<header class="header02 hm05 isSticky">
+<div class="col-xl-8 col-lg-6 col-md-8">
+<header class="hm05 isSticky">
 <div class="container largeContainer">
 <div class="row">
 <div class="col-lg-12">
 <div class="navBar01">
 <nav class="mainMenu">
 <ul>
-<li class="">
+<li>
 <a href="index.php">Home</a>
 <li><a href="about.php">About</a>
 </li>
 <li class="menu-item-has-children">
-<a href="product.php">products</a>
+<a href="product1.php">products</a>
 <ul class="sub-menu">
-<li class="">
-<a href="product.php">product 1</a>
+<li>
+<a href="product1.php">product 1</a>
 </li>
-<li class="">
-<a href="product.php">product 2</a>
+<li>
+<a href="product1.php">product 2</a>
 </li>
 <li><a href="single-blog.php">product 3</a></li>
 </ul>
@@ -108,6 +80,18 @@
 </div>
 </div>
 </header>
+</div>
+<div class="col-xl-2 col-lg-3 col-md-4 cusmm">
+<div class="midIconBox">
+<i class="twi-headphones-alt2"></i>
+<h5>call us free</h5>
+<p>(1900)-1088-88</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
 
 
 <section class="sidebarMenu">
@@ -120,6 +104,7 @@
 <a href="javascript:void(0);" class="SMACloser"><i class="twi-times2"></i></a>
 </div>
 <div class="SMABody">
+    
 <ul>
 <li>
 <a href="index.php">Home</a>
@@ -129,7 +114,7 @@
 <a href="about.php">About</a>
 </li>
 <li>
-<a href="product.php">Product</a>
+<a href="product1.php">Product</a>
 <ul class="sub-menu">
 <li>
 <a href="javascript:void(0);">Blog List Views</a>

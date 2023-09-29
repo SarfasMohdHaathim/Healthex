@@ -60,21 +60,20 @@ if (mysqli_num_rows($res) > 0) {
 <div class="sidebar">
 <aside class="widget widget_blog">
 <h3 class="widget_title">Blog Posts</h3>
+
+<?php 
+        $sql = "SELECT * FROM blog ORDER BY id DESC LIMIT 3";
+        $res = mysqli_query($conn, $sql);
+          if (mysqli_num_rows($res) > 0) {
+          	while ($row = mysqli_fetch_assoc($res)) {  ?>
+
+
 <div class="pp_post_item">
-<img src="assets/images/blog/t1.jpg" alt="">
-<h5><a href="single-blog.html">Trip summer 2021</a></h5>
-<span>August 6, 2021</span>
+<img src="admin/<?=$row['image_url']?>" alt="">
+<h5><a href="single-blog.php?id=<?=$row['id']?>"><?=$row['title']?></a></h5>
+<span><?=$row['date']?></span>
 </div>
-<div class="pp_post_item">
-<img src="assets/images/blog/t2.jpg" alt="">
-<h5><a href="single-blog.html">Food trending</a></h5>
-<span>August 6, 2021</span>
-</div>
-<div class="pp_post_item">
-<img src="assets/images/blog/t3.jpg" alt="">
-<h5><a href="single-blog.html">Oceaus Mountain</a></h5>
-<span>August 6, 2021</span>
-</div>
+<?php }} ?>
 </aside>
 </div>
 </div>

@@ -14,10 +14,12 @@ if (isset($_POST['submit'])) {
 	$p2=str_replace("'", "''", $p2);
 	$p3=$_POST['p3'];
 	$p3=str_replace("'", "''", $p3);
-	$date=date("Y/m/d");
+	$date = date("d M");;
 	session_start();
 	$image=$_SESSION['image'];
     unset($_SESSION['image']);
+
+	
 	
 				// create table if not exist
 				$query="CREATE TABLE IF NOT EXISTS blog(id INT AUTO_INCREMENT primary key NOT NULL,

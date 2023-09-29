@@ -1,4 +1,5 @@
-<?php include_once 'header.php';
+<?php 
+include_once 'header.php';
 include_once 'admin/php/db_conn.php'; 
 ?>
 
@@ -34,7 +35,7 @@ include_once 'admin/php/db_conn.php';
 <div class="blogItem01 mb70">
 <div class="blogThumb">
 <img src="admin/<?=$row['image_url']?>" alt="">
-<div class="blogDate">09 Jul</div>
+<div class="blogDate"><?=$row['date']?></div>
 </div>
 <div class="blogContent">
 <div class="bmeta">

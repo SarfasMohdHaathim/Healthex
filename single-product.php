@@ -36,10 +36,18 @@ if (mysqli_num_rows($res) > 0) {
 <div class="sp_img">
 <img src="admin/<?=$image_url?>" alt="">
 </div>
-<!-- <div class="sp_img">
-<img src="assets/images/single-product/2.png" alt="">
-</div>
+<?php 
+          $sql = "SELECT * FROM product_image WHERE work_id='$id' ORDER BY id DESC";
+          $res = mysqli_query($conn,$sql);
+
+          if (mysqli_num_rows($res) > 0) {
+            while ($row = mysqli_fetch_assoc($res)) {  ?>
+            
 <div class="sp_img">
+<img src="admin/uploads/<?=$row['image_url']?>" alt="">
+</div>
+<?php } } ?>
+<!-- <div class="sp_img">
 <img src="assets/images/single-product/3.png" alt="">
 </div>
 <div class="sp_img">
@@ -55,26 +63,19 @@ if (mysqli_num_rows($res) > 0) {
 <img src="admin/<?=$image_url?>" alt="">
 </div>
 </li>
-<!-- <li role="presentation">
-<div class="idItem">
-<img src="assets/images/single-product/s2.png" alt="">
-</div>
-</li>
+<?php 
+          $sql = "SELECT * FROM product_image WHERE work_id='$id' ORDER BY id DESC";
+          $res = mysqli_query($conn,$sql);
+
+          if (mysqli_num_rows($res) > 0) {
+            while ($row = mysqli_fetch_assoc($res)) {  ?>
 <li role="presentation">
 <div class="idItem">
-<img src="assets/images/single-product/s3.png" alt="">
+<img src="admin/uploads/<?=$row['image_url']?>" alt="">
 </div>
 </li>
-<li role="presentation">
-<div class="idItem">
-<img src="assets/images/single-product/s4.png" alt="">
-</div>
-</li>
-<li role="presentation">
-<div class="idItem">
-<img src="assets/images/single-product/s6.png" alt="">
-</div>
-</li> -->
+<?php } } ?>
+
 </ul>
 </div>
 <div class="col-lg-6">
@@ -153,6 +154,30 @@ Integer hendrerit a diam quis ullamcorper. Proin leo libero, porttitor sit amet 
 <tr>
 <th>Color:</th>
 <td>Black, Green, Mixed, Red, White</td>
+</tr>
+<tr>
+<th>Size:</th>
+<td>Extra Large, Extra Small, Medium, Small</td>
+</tr>
+<tr>
+<th>Size:</th>
+<td>Extra Large, Extra Small, Medium, Small</td>
+</tr>
+<tr>
+<th>Size:</th>
+<td>Extra Large, Extra Small, Medium, Small</td>
+</tr>
+<tr>
+<th>Size:</th>
+<td>Extra Large, Extra Small, Medium, Small</td>
+</tr>
+<tr>
+<th>Size:</th>
+<td>Extra Large, Extra Small, Medium, Small</td>
+</tr>
+<tr>
+<th>Size:</th>
+<td>Extra Large, Extra Small, Medium, Small</td>
 </tr>
 <tr>
 <th>Size:</th>

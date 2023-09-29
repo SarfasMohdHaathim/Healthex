@@ -28,7 +28,6 @@ include_once 'php/db_conn.php';?>
                           <th scope="col">Email</th>
                           <th scope="col">Phone</th>
                           <th scope="col">Date</th>
-                          <th scope="col">Subject</th>
                           <th class="text-end" scope="col"></th>
                           <th class="text-end" scope="col"></th>
                         </tr>
@@ -51,7 +50,6 @@ include_once 'php/db_conn.php';?>
                           <td class="text-nowrap"><?=$row['email']?></td>
                           <td class="text-nowrap"><?=$row['phone']?></td>
                           <td class="text-nowrap"><?=$row['date']?></td>
-                          <td class="text-nowrap"><?=$row['subject']?></td>
                           <td class="text-end">
                                 <div class="d-flex">
                                 <button class="btn btn-falcon-danger " type="button"  data-toggle="modal" data-target="#myModal<?=$row['id']?>"><span class="ms-1">Delete</span></button>

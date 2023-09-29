@@ -26,9 +26,9 @@
 <div class="col-md-5">
 <div class="subTitle sbsm">Only Organic</div>
 <h2 class="secTitle">The Best Choice For your Business.</h2>
-<p>
-Sumptuous, filling, and temptingly healthy, our Biona Organic
-Granola with Wild Berries is just the thing to get you out of bed.
+<p>Welcome to [Your Healthy Food Product Brand], where we're passionate about promoting a healthier,
+ more vibrant life through nourishing and delicious food. Our journey began with a simple idea:
+     to make nutritious eating not just a choice but a delightful experience.
 </p>
 <ul class="listItem withbg">
 <li><span><i class="twi-check-circle"></i>100% Natural</span></li>
@@ -82,6 +82,8 @@ Granola with Wild Berries is just the thing to get you out of bed.
 </div>
  </div>
 </section>
+
+
 
 
 <section class="solutionSection01">
@@ -217,31 +219,5 @@ Granola with Wild Berries is just the thing to get you out of bed.
 </div>
 </section>
 
-
-<section class="mailSection02">
-<div class="container largeContainer">
-<div class="row">
-<div class="col-md-12">
-<div class="ctaMail">
-<div class="row">
-<div class="col-lg-5">
-<div class="subTitle">Don’t Miss Our Deals.</div>
-<h2>EXCLUSIVE OFFERS & SALE</h2>
-<p>Sign up and get a voucher of worth $250.00</p>
-</div>
-<div class="col-lg-7">
-<div class="SubsrcribeForm btn_position">
-<form action="#" method="post">
-<input type="email" name="EMAIL" placeholder="Email Address">
-<button type="submit">Subsrcribe Now</button>
-</form>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
 
 <?php include_once 'footer.php'; ?>
